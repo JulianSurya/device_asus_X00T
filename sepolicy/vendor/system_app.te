@@ -24,3 +24,4 @@ allow system_app sysfs_tbrightness:file { open getattr write };
 allow system_app sysfs_fps:file { open read getattr write };
 allow system_app sysfs_torch:file { open getattr write };
 allow system_app sysfs_fastcharge:file { open read getattr write };
+allow system_app sysfs_gesture:file rw_file_perms;
