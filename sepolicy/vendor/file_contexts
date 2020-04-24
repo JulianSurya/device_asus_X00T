@@ -71,3 +71,6 @@
 
 # Force Fast Charge
 /sys/kernel/fast_charge/force_fast_charge                               u:object_r:sysfs:s0
+
+# Gestures
+/sys/kernel/touchpanel(/.*)?         u:object_r:sysfs_gesture:s0
