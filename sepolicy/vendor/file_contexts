@@ -70,4 +70,4 @@
 /sys/kernel/touchpanel/gesture_node                                     u:object_r:sysfs:s0
 
 # Force Fast Charge
-/sys/kernel/fast_charge/force_fast_charge
+/sys/kernel/fast_charge/force_fast_charge                               u:object_r:sysfs:s0
